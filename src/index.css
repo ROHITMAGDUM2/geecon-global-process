@@ -1,7 +1,7 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
-/* @import "@fortawesome/fontawesome-free/css/all.min.css"; */
+/* w */
 
 .jumbotron {
   background: linear-gradient(135deg, #3260b2, #3260b2 32%, #3260b296);
