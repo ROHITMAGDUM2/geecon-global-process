@@ -1,3 +1,28 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+/* @import "@fortawesome/fontawesome-free/css/all.min.css"; */
+
+.jumbotron {
+  background: linear-gradient(135deg, #3260b2, #3260b2 32%, #3260b296);
+  color: #ffff;
+  border-radius: 0;
+}
+@media (min-width: 576px) {
+  .jumbotron {
+    padding: 4rem 0rem;
+  }
+}
+.jumbotron {
+  margin-bottom: 2rem;
+  background-color: #e9ecef;
+  border-radius: 0.3rem;
+}
+
+.down-arrow {
+  @apply absolute h-0 w-0 border-solid;
+  border-color: #5077bd transparent;
+  border-width: 20px 20px 0 20px;
+  left: 49%;
+  top: 98%;
+}
