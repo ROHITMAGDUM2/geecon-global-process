@@ -21,17 +21,7 @@ const Technologystack = () => {
           </div>
           <div className="container mx-auto px-4">
             {/* Pagecontent */}
-            <div className="page-information space-y-6 text-justify mt-10 mb-10 pb-4">
-              <h3 className="text-2xl md:text-3xl font-semibold text-gray-800">
-                Geecon Software creates robust applications using the Microsoft
-                Stack, various front end web technologies and mobile apps using
-                Xamarin.
-              </h3>
-
-              <p className="text-gray-600 text-[15px] pb-4 mb-10">
-                Development Frameworks
-              </p>
-            </div>
+            <div className="page-information space-y-6 text-justify mt-10 mb-10 pb-4"></div>
           </div>
         </div>
       </div>
