@@ -3,7 +3,7 @@ import React from "react";
 const Process = () => {
   const processData = [
     {
-      title: "Working With Us",
+      title: "Working With Us ",
       description:
         "When you work with a company, you want to know what to expect up-front. Are they the right fit for your company, can they deliver what you need at the right price and on-time?",
       image:
