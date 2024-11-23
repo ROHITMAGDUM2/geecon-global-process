@@ -113,7 +113,7 @@ const Process = () => {
                       href={item.link}
                       className="text-blue-500 text-[15px] hover:underline flex items-center justify-end text-end p-4"
                     >
-                      Read More <i className="ml-1 fas fa-chevron-right"></i>
+                      Read More<i className="ml-1 fas fa-chevron-right"></i>
                     </a>
                   </div>
                 </div>
