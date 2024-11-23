@@ -30,6 +30,9 @@ module.exports = {
         "heading-with-arrow":
           "linear-gradient(135deg, #3260b2, #3260b2 32%, #3260b296)",
       },
+      colors: {
+        "dark-gray": "#212529",
+      },
     },
   },
   plugins: [],

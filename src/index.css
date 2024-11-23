@@ -30,3 +30,14 @@
 .heading-with-arrow {
   background: linear-gradient(135deg, #3260b2, #3260b2 32%, #3260b296);
 }
+
+ul {
+  display: block;
+  list-style-type: disc;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 0px;
+  unicode-bidi: isolate;
+}
