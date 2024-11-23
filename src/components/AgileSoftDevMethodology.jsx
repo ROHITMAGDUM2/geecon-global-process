@@ -9,7 +9,7 @@ const AgileSoftDevMethodology = () => {
         </h1>
       </div>
       <div className="flex flex-col items-center">
-        {/* Breadcrumb Section */}
+        {/* BreadCrumb Section */}
         <div className="w-full md:w-10/12">
           <div className="flex justify-center">
             <div className="w-full mb-2">
