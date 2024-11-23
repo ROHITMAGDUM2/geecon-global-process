@@ -20,7 +20,7 @@ const Technologystack = () => {
             </div>
           </div>
           <div className="container mx-auto px-4">
-            {/* Page content */}
+            {/* Pagecontent */}
             <div className="page-information space-y-6 text-justify mt-10 mb-10 pb-4">
               <h3 className="text-2xl md:text-3xl font-semibold text-gray-800">
                 Geecon Software creates robust applications using the Microsoft
