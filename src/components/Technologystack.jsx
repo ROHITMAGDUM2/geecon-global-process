@@ -81,6 +81,45 @@ const Technologystack = () => {
             ))}
           </div>
         </div>
+        {/* Languages */}
+        <div className="container mx-auto px-4 py-6">
+          <h3 className="text-gray-700 text-2xl text-center lg:text-left mb- font-light">
+            Languages
+          </h3>
+          <hr className="border-gray-300 mt-2 mb-10" />
+
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 text-center lg:text-left">
+            {[
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_c_sharp.svg",
+                alt: "hmrc gift aid portal",
+                title: "ASP.NET CORE",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_javascript.svg",
+                alt: "web services label software",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_typescript.svg",
+                alt: "chatham chambers",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_vb_dot_net.svg",
+                alt: "geecon",
+              },
+            ].map((item, index) => (
+              <a key={index} href="#" className="block">
+                <div className="box-tech" data-title={item.title || undefined}>
+                  <img
+                    className="w-full rounded border border-gray-300 shadow-sm"
+                    src={item.src}
+                    alt={item.alt}
+                  />
+                </div>
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
