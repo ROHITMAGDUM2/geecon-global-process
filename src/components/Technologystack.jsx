@@ -120,6 +120,111 @@ const Technologystack = () => {
             ))}
           </div>
         </div>
+        {/* Web technologies*/}
+        <div className="container mx-auto px-4 py-5">
+          <h3 className="text-gray-700 text-2xl text-center lg:text-left mb- font-light">
+            Web Technologies/Libraries
+          </h3>
+          <hr className="border-gray-300 mt-2 mb-10" />
+
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 text-center lg:text-left">
+            {[
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_html5.svg",
+                alt: "bespoke business applications",
+                title: "HTML5",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_css3.svg",
+                alt: "bespoke business apps",
+                title: "CSS3",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_bootsrap.svg",
+                alt: "data 360 solutions",
+                title: "Bootstrap",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_knockout.svg",
+                alt: "open source client portal software",
+                title: "Knockout.js",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_angular.svg",
+                alt: "software development for startups",
+                title: "Angular",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_react.svg",
+                alt: "white label software development",
+                title: "React",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_jquery.svg",
+                alt: "customer portal software",
+                title: "jQuery",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_sass.svg",
+                alt: "operational systems",
+                title: "Sass",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_kendo.png",
+                alt: "sporting speakers",
+                title: "Kendo",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/03/logo_vue.svg",
+                alt: "chatham chambers solicitors",
+                title: "Vue.js",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_signal.png",
+                alt: "bespoke databases",
+                title: "SignalR",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_highcharts.svg",
+                alt: "data 360",
+                title: "Highcharts",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_nodejs.png",
+                alt: "bespoke crm systems",
+                title: "Node.js",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_electron.svg",
+                alt: "rightnow crm",
+                title: "Electron",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_googlemaps.png",
+                alt: "trattoria ibleo restaurant",
+                title: "Google Maps",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_leaflet.svg",
+                alt: "compassion app",
+                title: "Leaflet",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_canvas.svg",
+                alt: "secure portal software",
+                title: "Canvas",
+              },
+            ].map((tech, index) => (
+              <a key={index} href="#" className="block" title={tech.title}>
+                <img
+                  className="w-full rounded border border-gray-300 shadow-sm"
+                  src={tech.src}
+                  alt={tech.alt}
+                />
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
