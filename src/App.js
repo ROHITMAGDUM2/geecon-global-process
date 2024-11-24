@@ -3,6 +3,7 @@ import WorkingWithUs from "./components/WorkingWithUs";
 import PrototypingSpecificationWriting from "./components/PrototypingSpecificationWriting";
 import RapidApplicationDevelopment from "./components/RapidApplicationDevelopment";
 import AgileSoftDevMethodology from "./components/AgileSoftDevMethodology";
+import Technologystack from "./components/Technologystack";
 
 function App() {
   return (
@@ -12,7 +13,8 @@ function App() {
         {/* <WorkingWithUs /> */}
         {/* <PrototypingSpecificationWriting /> */}
         {/* <RapidApplicationDevelopment /> */}
-        <AgileSoftDevMethodology />
+        {/* <AgileSoftDevMethodology /> */}
+        <Technologystack />
       </div>
     </>
   );

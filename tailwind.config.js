@@ -31,7 +31,9 @@ module.exports = {
           "linear-gradient(135deg, #3260b2, #3260b2 32%, #3260b296)",
       },
       colors: {
-        "dark-gray": "#212529",
+        bodyColor: "#F5F5F5",
+        customGray: "#e9ecef",
+        darkGray: "#212529",
       },
     },
   },
