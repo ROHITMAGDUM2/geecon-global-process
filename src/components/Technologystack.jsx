@@ -225,6 +225,76 @@ const Technologystack = () => {
             ))}
           </div>
         </div>
+        {/* Other Technologies */}
+        <div className="container mx-auto px-4 py-6">
+          <h3 className="text-gray-700 text-2xl text-center lg:text-left mb- font-light">
+            Other
+          </h3>
+          <hr className="border-gray-300 mt-2 mb-10" />
+
+          <div className="grid grid-cols-2 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4  gap-6 text-center lg:text-left">
+            {[
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_abcpdf.png",
+                alt: "cozy bay furniture ebay",
+                title: "ABCpdf",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_azure_functions.png",
+                alt: "deluxe holiday homes poole",
+                title: "Azure Functions",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_sagepay.svg",
+                alt: "ts heating services",
+                title: "Sage Pay",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_echosign.png",
+                alt: "customer portal functionality",
+                title: "EchoSign",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_hangfire.png",
+                alt: "rahul international school",
+                title: "Hangfire",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_gbg.png",
+                alt: "white label server hardware",
+                title: "GBG",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_pca_predict.png",
+                alt: "a1 sporting speakers",
+                title: "PCA Predict",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_twilio.png",
+                alt: "silverback studios",
+                title: "Twilio",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_textanywhere.png",
+                alt: "white label software developer",
+                title: "TextAnywhere",
+              },
+              {
+                src: "https://www.one-beyond.com/app/uploads/2018/01/logo_sendgrid.png",
+                alt: "oseasons",
+                title: "SendGrid",
+              },
+            ].map((tech, index) => (
+              <a key={index} href="#" className="block" title={tech.title}>
+                <img
+                  className="w-full rounded border border-gray-300 shadow-sm"
+                  src={tech.src}
+                  alt={tech.alt}
+                />
+              </a>
+            ))}
+          </div>
+        </div>
       </div>
     </div>
   );
